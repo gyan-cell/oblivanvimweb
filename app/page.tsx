@@ -1,6 +1,7 @@
+import HeroPage from "@/components/custom/server/HeroPage";
 
 export default function Home() {
   return (
-    <div>Oblivian Vim</div>
+    <HeroPage />
   );
 }

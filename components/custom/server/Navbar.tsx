@@ -4,12 +4,13 @@ import React from 'react'
 import NavElements from '../client/NavElements'
 const orbitron = Orbitron({ subsets: ['latin'] })
 import "@/styles/navbar.scss"
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <nav className='bg-white dark:bg-background '  >
       <div className='logo'  >
-        <h1 className={cn(orbitron.className, "")}  >Oblivian Vim</h1>
+        <Link href={'/'}  ><h1 className={cn(orbitron.className, "")}  >Oblivian Vim</h1></Link>
       </div>
       <NavElements />
     </nav>

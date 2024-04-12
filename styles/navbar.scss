@@ -20,6 +20,12 @@ nav {
     height: 100%;
     gap: 1.3rem;
     font-size: 1.2rem;
+
+    >a {
+      &:hover {
+        color: #a9a9a9;
+      }
+    }
   }
 }
 
