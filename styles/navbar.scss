@@ -23,7 +23,8 @@ nav {
 
     >a {
       &:hover {
-        color: #a9a9a9;
+        scale: 1.1;
+        text-decoration: underline;
       }
     }
   }
